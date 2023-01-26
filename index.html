@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link href="./style/index.css" type="text/css" rel="stylesheet" />
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+  </head>
+  <body>
+    <div class="grid-container">
+      <main class="main">
+        <header class="main-nav">
+          <div>
+            <img src="./assets/logo-dark.svg" alt="Logo" />
+          </div>
+          <button class="btn">Get started</button>
+        </header>
+        <section class="hero">
+          <div class="hero-content">
+            <h2 class="hero-title fs-500">
+              Maximize skill,<br />
+              minimize budget
+            </h2>
+            <p class="hero-content">
+              Our modern courses across a range of in-demand skills will give
+              you the knowledge you need to live the life you want.
+            </p>
+            <button class="btn btn-primary">Get started</button>
+          </div>
+          <div class="hero-img">
+            <picture>
+              <img src="./assets/image-hero-desktop.png" />
+            </picture>
+          </div>
+        </section>
+        <section class="card-container">
+          <div class="card card-info">
+            <h2 class="fs-400">Check out our most popular courses!</h2>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/icon-animation.svg" />
+            </div>
+            <h2>Animation</h2>
+            <p>
+              Learn the latest animation techniques to create stunning motion
+              design and captivate your audience.
+            </p>
+            <span class="card-btn">Get Started</span>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/icon-design.svg" />
+            </div>
+            <h2>Design</h2>
+            <p>
+              Create beautiful, usable interfaces to help shape the future of
+              how the web looks.
+            </p>
+            <span class="card-btn">Get Started</span>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/icon-photography.svg" />
+            </div>
+            <h2>Photography</h2>
+            <p>
+              Explore critical fundamentals like lighting, composition, and
+              focus to capture exceptional photos.
+            </p>
+            <span class="card-btn">Get Started</span>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/icon-crypto.svg" />
+            </div>
+            <h2>Crypto</h2>
+            <p>
+              All you need to know to get started investing in crypto. Go from
+              beginner to advanced with this 54 hour course.
+            </p>
+            <span class="card-btn">Get Started</span>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="./assets/icon-business.svg" />
+            </div>
+            <h2>Business</h2>
+            <p>
+              A step-by-step playbook to help you start, scale, and sustain your
+              business without outside investment.
+            </p>
+            <span class="card-btn">Get Started</span>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer-container">
+          <div>
+            <img src="./assets/logo-light.svg" />
+          </div>
+          <button class="btn btn-secondary">Get started</button>
+        </div>
+      </footer>
+    </div>
+    <!-- Get Started
+
+  Maximize skill, minimize budget
+
+  Our modern courses across a range of in-demand skills will give you the 
+  knowledge you need to live the life you want.
+
+  Get Started
+
+  Check out our most popular courses!
+
+  Animation
+  Learn the latest animation techniques to create stunning motion 
+  design and captivate your audience.
+  Get Started
+
+  Design
+  Create beautiful, usable interfaces to help shape the future of 
+  how the web looks.
+  Get Started
+
+  Photography
+  Explore critical fundamentals like lighting, composition, and focus 
+  to capture exceptional photos.
+  Get Started
+
+  Crypto
+  All you need to know to get started investing in crypto. Go from beginner 
+  to advanced with this 54 hour course.
+  Get Started
+
+  Business
+  A step-by-step playbook to help you start, scale, and sustain your business 
+  without outside investment.
+  Get Started
+
+  Get Started -->
+    <!-- Design System -->
+    <!-- <div class="container">
+      <header class="main-nav">
+        <div>
+          <img src="./assets/logo-dark.svg" />
+        </div>
+        <h1 class="title">design system</h1>
+      </header>
+      <main>
+      
+        <section class="color">
+          <h2 class="title">Color</h2>
+          <div class="color-grid">
+            <div class="color-grid__item">
+              <div class="color-grid__clr"></div>
+
+              <h2 style="font-weight: var(--fw-800)">
+                <span style="color: hsla(var(--clr-primary-300) / 0.25)">#</span
+                >666CA3
+              </h2>
+              <p>
+                <span style="color: hsla(var(--clr-primary-100) / 1)">RGB</span>
+                102, 108, 163
+              </p>
+              <p style="font-weight: var(--fs-400)">
+                <span style="color: hsla(var(--clr-primary-100) / 1)">HSL</span
+                >234°, 25%, 52%
+              </p>
+            </div>
+            <div class="color-grid__item">
+              <div
+                class="color-grid__clr"
+                style="--color: var(--clr-primary-300)"
+              ></div>
+
+              <h2 style="font-weight: var(--fw-800)">
+                <span style="color: hsla(var(--clr-primary-300) / 0.25)">#</span
+                >666CA3
+              </h2>
+              <p>
+                <span style="color: hsla(var(--clr-primary-100) / 1)">RGB</span>
+                102, 108, 163
+              </p>
+              <p style="font-weight: var(--fs-400)">
+                <span style="color: hsla(var(--clr-primary-100) / 1)">HSL</span
+                >234°, 25%, 52%
+              </p>
+            </div>
+            <div class="color-grid__item">
+              <div
+                class="color-grid__clr"
+                style="--color: var(--clr-primary-100)"
+              ></div>
+
+              <h2 style="font-weight: var(--fw-800)">
+                <span style="color: hsla(var(--clr-primary-300) / 0.25)">#</span
+                >666CA3
+              </h2>
+              <p>
+                <span style="color: hsla(var(--clr-primary-100) / 1)">RGB</span>
+                102, 108, 163
+              </p>
+              <p style="font-weight: var(--fs-400)">
+                <span style="color: hsla(var(--clr-primary-100) / 1)">HSL</span
+                >234°, 25%, 52%
+              </p>
+            </div>
+            <div class="color-grid__item">
+              <div
+                class="color-grid__clr"
+                style="--color: var(--clr-secondary-100)"
+              ></div>
+
+              <h2 style="font-weight: var(--fw-800)">
+                <span style="color: hsla(var(--clr-primary-300) / 0.25)">#</span
+                >666CA3
+              </h2>
+              <p>
+                <span style="color: hsla(var(--clr-primary-100) / 1)">RGB</span>
+                102, 108, 163
+              </p>
+              <p style="font-weight: var(--fs-400)">
+                <span style="color: hsla(var(--clr-primary-100) / 1)">HSL</span
+                >234°, 25%, 52%
+              </p>
+            </div>
+            <div class="color-grid__item">
+              <div
+                class="color-grid__clr"
+                style="--color: var(--clr-secondary-200)"
+              ></div>
+
+              <h2 style="font-weight: var(--fw-800)">
+                <span style="color: hsla(var(--clr-primary-300) / 0.25)">#</span
+                >666CA3
+              </h2>
+              <p>
+                <span style="color: hsla(var(--clr-primary-100) / 1)">RGB</span>
+                102, 108, 163
+              </p>
+              <p style="font-weight: var(--fs-400)">
+                <span style="color: hsla(var(--clr-primary-100) / 1)">HSL</span
+                >234°, 25%, 52%
+              </p>
+            </div>
+            <div class="color-grid__item">
+              <div
+                class="color-grid__clr"
+                style="--color: var(--clr-neutral)"
+              ></div>
+
+              <h2 style="font-weight: var(--fw-800)">
+                <span style="color: hsla(var(--clr-primary-300) / 0.25)">#</span
+                >666CA3
+              </h2>
+              <p>
+                <span style="color: hsla(var(--clr-primary-100) / 1)">RGB</span>
+                102, 108, 163
+              </p>
+              <p style="font-weight: var(--fs-400)">
+                <span style="color: hsla(var(--clr-primary-100) / 1)">HSL</span
+                >234°, 25%, 52%
+              </p>
+            </div>
+            <div class="color-grid__item">
+              <div class="color-grid__gradient"></div>
+
+              <h2 style="font-weight: var(--fw-800)">
+                <span style="color: hsla(var(--clr-primary-300) / 0.25)">#</span
+                >666CA3
+              </h2>
+              <p>
+                <span style="color: hsla(var(--clr-primary-100) / 1)">RGB</span>
+                102, 108, 163
+              </p>
+              <p style="font-weight: var(--fs-400)">
+                <span style="color: hsla(var(--clr-primary-100) / 1)">HSL</span
+                >234°, 25%, 52%
+              </p>
+            </div>
+            <div class="color-grid__item">
+              <div
+                class="color-grid__gradient"
+                style="--gradient: var(--gradient-secondary)"
+              ></div>
+
+              <h2 style="font-weight: var(--fw-800)">
+                <span style="color: hsla(var(--clr-primary-300) / 0.25)">#</span
+                >666CA3
+              </h2>
+              <p>
+                <span style="color: hsla(var(--clr-primary-100) / 1)">RGB</span>
+                102, 108, 163
+              </p>
+              <p style="font-weight: var(--fs-400)">
+                <span style="color: hsla(var(--clr-primary-100) / 1)">HSL</span
+                >234°, 25%, 52%
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="typograpy">
+          <h2 class="title">Typograpy</h2>
+          <div>
+            <div>
+              <div></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div> -->
+  </body>
+</html>
