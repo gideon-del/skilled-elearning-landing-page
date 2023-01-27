@@ -8,7 +8,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/favicon-32x32.png"
+      href="./assets/logo-dark.svg"
     />
     <link href="./style/index.css" type="text/css" rel="stylesheet" />
     <title>Frontend Mentor | Skilled e-learning landing page</title>
@@ -16,33 +16,45 @@
   <body>
     <div class="grid-container">
       <main class="main">
-        <header class="main-nav">
-          <div>
-            <img src="./assets/logo-dark.svg" alt="Logo" />
+        <header>
+          <div class="main-nav container">
+            <div>
+              <img src="./assets/logo-dark.svg" alt="Logo" />
+            </div>
+            <button class="btn">Get started</button>
           </div>
-          <button class="btn">Get started</button>
         </header>
-        <section class="hero">
-          <div class="hero-content">
-            <h2 class="hero-title fs-500">
-              Maximize skill,<br />
-              minimize budget
-            </h2>
-            <p class="hero-content">
-              Our modern courses across a range of in-demand skills will give
-              you the knowledge you need to live the life you want.
-            </p>
-            <button class="btn btn-primary">Get started</button>
-          </div>
-          <div class="hero-img">
-            <picture>
-              <img src="./assets/image-hero-desktop.png" />
-            </picture>
+        <section>
+          <div class="hero container">
+            <div class="hero-content">
+              <h2 class="hero-title fs-500">
+                Maximize skill,<br />
+                minimize budget
+              </h2>
+              <p class="hero-content">
+                Our modern courses across a range of in-demand skills will give
+                you the knowledge you need to live the life you want.
+              </p>
+              <button class="btn btn-primary">Get started</button>
+            </div>
+            <div class="hero-img">
+              <picture>
+                <source
+                  srcset="./assets/image-hero-mobile.png"
+                  media="(max-width: 600px)"
+                />
+                <source
+                  srcset="./assets/image-hero-tablet@2x.png"
+                  media="(max-width: 900px)"
+                />
+                <img src="./assets/image-hero-desktop.png" />
+              </picture>
+            </div>
           </div>
         </section>
-        <section class="card-container">
+        <section class="card-container container">
           <div class="card card-info">
-            <h2 class="fs-400">Check out our most popular courses!</h2>
+            <h2 class="fs-500">Check out our most popular courses!</h2>
           </div>
           <div class="card">
             <div class="card-img">
@@ -102,7 +114,7 @@
         </section>
       </main>
       <footer class="footer">
-        <div class="footer-container">
+        <div class="footer-container container">
           <div>
             <img src="./assets/logo-light.svg" />
           </div>
