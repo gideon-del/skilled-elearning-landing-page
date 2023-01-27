@@ -111,6 +111,19 @@ p {
   border-radius: 9999px;
   cursor: pointer;
   z-index: 99999;
+  position: relative;
+  overflow: hidden;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: hsl(var(--clr-neutral));
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+.btn:hover::after {
+  opacity: 0.4;
 }
 .btn-primary {
   background-color: none;
